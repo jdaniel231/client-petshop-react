@@ -2,11 +2,11 @@
     {
         "display_name": "Dashboard",
         "route": "/",
-        "icon": "bx bx-category-alt"
+        "icon": "bx bx-layout"
     },
     {
         "display_name": "Clientes",
         "route": "/customers",
-        "icon": "bx bx-user-pin"
+        "icon": "bx bx-user"
     }
 ]
