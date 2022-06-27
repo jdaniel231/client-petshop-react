@@ -1,4 +1,5 @@
 import React from 'react'
+import './layout.css'
 
 import Sidebar from '../sidebar/Sidebar'
 import Routes from '../Routes'
