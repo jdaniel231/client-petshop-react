@@ -14,7 +14,6 @@ const Dashboard = () => {
             {
               statusCards.map((item, index) => (
                 <div className="col-4">
-                  {item.title}
                   <StatusCard 
                     icon={item.icon}
                     count={item.count}
