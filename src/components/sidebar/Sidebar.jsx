@@ -1,4 +1,5 @@
 import React from 'react'
+import logo from '../../assets/images/favicon.png'
 
 import './sidebar.css'
 
@@ -31,7 +32,8 @@ const Sidebar = props => {
   return (
     <div className="sidebar">
       <div className="sidebar__logo">
-        <h3>Clinica PetShop</h3>
+        <img src={logo} alt="" />
+        <h3> Clinica PetShop</h3>
       </div>
       {
         sidebar_items.map((item, index) => (
